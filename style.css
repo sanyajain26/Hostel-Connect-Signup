@@ -19,13 +19,13 @@
 }
 @media (min-width: 576px) {
     .container {
-        max-width: 540px;
+        max-width: 520px;
     }
-}
+    
 
 @media (min-width: 768px) {
     .container {
-        max-width: 720px;
+        max-width: 520px;
     }
 }
 
@@ -68,21 +68,19 @@
 }
 
 
-@media screen and (max-width: 480px) {
-    .submit
-
-{
-    width: 100%;
-}
-
-#submit {
-    margin-bottom: 20px;
-    margin-right: 0px;
-}
-
+    @media screen and (max-width: 480px) {
+        .submit {
+            width: 100%;
+        }
+    }
+        #submit {
+            margin-bottom: 2px;
+            margin-right: 0px;
+        }
+    
 
 
-}
+
 .p-l-50 {
     padding-left: 50px;
 }
@@ -149,7 +147,7 @@ body {
     font-family: 'Poppins';
     margin: 0px;
     padding: 50px 0;
-    background-color: #ffd5d1;
+    background-color: #128fa7;
 }
 
 .main {
@@ -166,7 +164,7 @@ body {
 p {
     margin: 0px;
     font-weight: 600;
-    color: #fc6c85;
+    color: #094753;
 }
 
 h1 {
@@ -174,7 +172,7 @@ h1 {
     margin: 0;
     padding: 0;
     font-weight: 900;
-    color: #e0218a;
+    color: #094753;
     font-family: 'Poppins';
     font-size: 45px;
     text-transform: uppercase;
@@ -188,17 +186,17 @@ h1 {
 
 }
 
-.submit-img .overlay-bg {
-    opacity: .5;
-    background-image: linear-gradient(to top, #f62e71 0%, #f9ab72 100%);
-}
+    .submit-img .overlay-bg {
+        opacity: .5;
+        background-image: linear-gradient(to top, #b2cfe6 0%, #149FBB 100%);
+    }
 
 .overlay {
-    position: absolute;
+   position:absolute;
     left: 0;
     right: 0;
     top: 0;
-    bottom: 8px;
+    bottom:0px;
 }
 
 .submit-img-content {
@@ -299,9 +297,12 @@ submit-img-content:last-of-type {
     width: 500px;
     margin-top: -2px;
 }
-@media screen and(max-width: 600px){
+@media screen and(max-width: 540px){
     .submit-form{
-        width:100px;
+        width:100%;
+    }
+    .wrap-submit{
+       outline-style:none;
     }
 }
 
@@ -320,7 +321,7 @@ label {
 
 input {
     box-sizing: border-box;
-    border: 2px solid #F9D1B7;
+    border: 2px solid #149FBB;
     padding: 14px 20px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -370,7 +371,7 @@ label.required:after {
 .label-submit {
     font-family: Poppins-SemiBold;
     font-size: 18px;
-    color: #999999;
+    color: #094753;
     line-height: 1.5;
 }
 
@@ -443,10 +444,10 @@ label.required:after {
     height: 50px;
     font-family: Poppins-Medium;
     font-size: 20px;
-    color: #000000;
+    color: #094753;
     line-height: 1.2;
     border-radius: 4px;
-    background-color: #fd6c9e;
+    background-color: #149FBB;
     border: none;
 }
 
